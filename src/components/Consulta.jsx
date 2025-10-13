@@ -55,7 +55,7 @@ function Consulta() {
   const buscarOT = async (e) => {
     e.preventDefault();
     try {
-      const url = `http://127.0.0.1:8000/api/consulta/?id_ot=${idOt}&nac_ot_year=${anio}`;
+      const url = `https://planosperu.com.pe/intranet/api/consulta/?id_ot=${idOt}&nac_ot_year=${anio}`;
       const res = await axios.get(url);
       if (res.data && res.data.data && res.data.data.length > 0) {
         setResultados(res.data);

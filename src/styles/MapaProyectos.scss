@@ -1,4 +1,5 @@
 // Variables
+@use 'sass:color';
 $primary-color: #4361ee;
 $secondary-color: #3f37c9;
 $accent-color: #4895ef;
@@ -40,7 +41,7 @@ $box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 
 .mapa-subtitulo {
   font-size: 1.2rem;
-  color: lighten($text-color, 20%);
+  color: color.adjust($text-color,$lightness: 20%);
   line-height: 1.6;
 }
 
@@ -64,7 +65,7 @@ $box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 15px rgba($primary-color, 0.2);
 
   &:hover {
-    background: darken($primary-color, 10%);
+    background: color.adjust($primary-color, $lightness: 10%);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba($primary-color, 0.3);
   }
@@ -277,7 +278,7 @@ $box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .estadistica-texto {
-  color: lighten($text-color, 20%);
+  color: color.adjust($text-color,$lightness: 20%);
   font-size: 1rem;
   margin: 0;
 }
@@ -286,7 +287,7 @@ $box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   max-width: 800px;
   margin: 0 auto;
   font-size: 1.1rem;
-  color: lighten($text-color, 15%);
+  color: color.adjust($text-color,$lightness: 15%);
   line-height: 1.7;
 }
 

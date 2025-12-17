@@ -33,7 +33,7 @@ const SolicitudCotizaciones = () => {
           <div className="contacto-info">
             <div className="contacto-item">
               <FaEnvelope className="contacto-icon" />
-              <a href="mailto:gestion@hotmail.com" className="contacto-text">gestion@hotmail.com</a>
+              <a href="mailto:gesstion@hotmail.com" className="contacto-text">gesstion@hotmail.com</a>
             </div>
             
             <div className="contacto-item">

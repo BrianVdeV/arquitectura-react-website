@@ -6,7 +6,7 @@ const Contacto = () => {
   const sedes = [
     {
       nombre: 'Oficina Principal Comas',
-      direccion: 'Jr. Juan Jose Muñoz N° 354',
+      direccion: 'Comas, Lima',
       telefono: '+51 962 303 092',
       email: 'gesstion@hotmail.com',
       horario: 'Lunes a Viernes: 9:00 am - 6:00 pm',
@@ -59,16 +59,6 @@ const Contacto = () => {
                   <p>{sede.horario}</p>
                 </div>
               </div>
-              
-              <a 
-                href={sede.mapaUrl} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="mapa-btn"
-              >
-                <MdDirections className="icon" />
-                Ver en Google Maps
-              </a>
             </div>
           ))}
         </div>

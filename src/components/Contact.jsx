@@ -63,7 +63,7 @@ const Contact = () => {
                 <div className="contact-icon">📍</div>
                 <div>
                   <h3 className="contact-title">Dirección</h3>
-                  <p>Av. Arquitectura 1234, Ciudad Moderna</p>
+                  <p>Comas, Lima</p>
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ const Contact = () => {
                 <div className="contact-icon">📞</div>
                 <div>
                   <h3 className="contact-title">Teléfono</h3>
-                  <p>+1 (555) 123-4567</p>
+                  <p>+51 962 303 092</p>
                 </div>
               </div>
 
@@ -79,7 +79,7 @@ const Contact = () => {
                 <div className="contact-icon">✉️</div>
                 <div>
                   <h3 className="contact-title">Email</h3>
-                  <p>info@arquitech.com</p>
+                  <p>gestion@hotmail.com</p>
                 </div>
               </div>
             </div>

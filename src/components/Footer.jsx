@@ -114,8 +114,7 @@ links: [
       title: "Contacto",
       links: [
         { icon: <FaMapMarkerAlt />, text: "Oficina Comas" },
-        { icon: <FaMapMarkerAlt />, text: "Jr. Juan Jose Muñoz N° 354" },
-        { icon: <FaEnvelope />, text: "gestion@hotmail.com" },
+        { icon: <FaEnvelope />, text: "gesstion@hotmail.com" },
         { icon: <FaPhone />, text: "+51 962 303 092" }
       ]
     }

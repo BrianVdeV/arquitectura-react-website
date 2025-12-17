@@ -202,12 +202,12 @@ const FormularioProyecto = () => {
               
               {/* CAMBIO: El 'Select' fue reemplazado por un 'input' de texto */}
               <div className="form-group">
-                <label className="form-label">Ubicación *</label>
+                <label className="form-label">Distrito o Provincia *</label>
                 <input
                   type="text"
                   name="ubicacion"
                   className="form-input"
-                  placeholder="Ej: Av. Principal 123, Miraflores"
+                  placeholder="Ej: Miraflores, Callao"
                   value={formData.ubicacion}
                   onChange={handleChange}
                   required

@@ -57,24 +57,6 @@ const SolicitudCotizaciones = () => {
                 </div>
               ))}
             </div>
-            
-            <div className="transferencias">
-              <div className="transferencia-item">
-                <FaMoneyBillWave className="transferencia-icon" />
-                <div>
-                  <p>Cuenta Corriente BCP</p>
-                  <p className="cuenta-numero">191-7674171-0-77</p>
-                </div>
-              </div>
-              
-              <div className="transferencia-item">
-                <FaMoneyBillWave className="transferencia-icon" />
-                <div>
-                  <p>Cuenta CCI BCP</p>
-                  <p className="cuenta-numero">00219100767417107756</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

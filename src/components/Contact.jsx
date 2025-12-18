@@ -63,7 +63,7 @@ const Contact = () => {
                 <div className="contact-icon">📍</div>
                 <div>
                   <h3 className="contact-title">Dirección</h3>
-                  <p>Comas, Lima</p>
+                  <p>Lima</p>
                 </div>
               </div>
 

@@ -5,8 +5,8 @@ import '../styles/Contacto.scss';
 const Contacto = () => {
   const sedes = [
     {
-      nombre: 'Oficina Principal Comas',
-      direccion: 'Comas, Lima',
+      nombre: 'Oficina Principal',
+      direccion: 'Lima',
       telefono: '+51 962 303 092',
       email: 'gesstion@hotmail.com',
       horario: 'Lunes a Viernes: 9:00 am - 6:00 pm',
